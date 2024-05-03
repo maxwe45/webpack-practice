@@ -1,9 +1,10 @@
-import myName from "./myname";
+import _ from 'lodash';
 
 function component () {
     const element = document.createElement('div');
 
-    element.textContent = myName('Cody');
+    element.textContent = 'Cody';
+
     return element;
 }
 
